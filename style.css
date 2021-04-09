@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	color: #c2d6ec;
+}
+
+#wrapper { 
+    width: 970px; 
+    min-height: 300px; 
+    margin: 50px auto; 
+    padding: 10px;
+    background-color: #1b335d;
+} 
+
+#header {
+	border-radius: 15px;
+	background-color: #cf3036;
+	height: 100px;
+	margin-bottom: 25px;
+}
+
+#nav {
+	background-color: #2a7d8c;
+	border-radius: 10px;
+	padding: 20px;
+	display: inline-block;
+	width: 25%;
+}
+
+#main {
+	background-color: #0e1822;
+	border-radius: 15px;
+}
+
+#foot {
+	background-color: #5d6673;
+	border-radius: 15px;
+}
+
+a, li {
+	color: #5dd1ce;
+}
+
