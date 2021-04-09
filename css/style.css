@@ -12,40 +12,65 @@
 } 
 
 #header {
-	border-radius: 15px;
+	border-radius: 10px;
 	background-color: #cf3036;
-	height: 100px;
-	margin-bottom: 25px;
+	padding: 15px 10px;
+	margin-bottom: 10px;
 }
 
 #nav {
 	background-color: #2a7d8c;
 	border-radius: 10px;
-	padding: 20px;
-	display: inline-block;
+	padding: 10px 10px 15px 15px;
+	float: left;
 	width: 15%;
 	margin-right: 25px;
 }
 
-/* #nav ul {
-	list-style-position: inside;
-} */
+#nav ul {
+	padding: 0 0 0 10px;
+}
+
+#nav ul ul {
+	padding: 0 0 0 10px;
+}
 
 #main {
 	background-color: #0e1822;
 	border-radius: 15px;
 	display: inline-block;
-	width: 73%;
+	width: 75%;
 	padding: 20px;
-
 }
 
 #foot {
+	display: flex;
 	background-color: #5d6673;
 	border-radius: 15px;
+	margin-top: 10px;
+	height: 40px;
+	align-items: center;
+	padding: 10px, 10px, 10px, 30px;
+	font-size: 10px;
 }
 
 a, li {
 	color: #5dd1ce;
+	font-size: 12px;
 }
 
+p {
+	font-size: 12px;
+}
+
+span {
+	color: #6d80ce;
+}
+
+#main ul {
+	padding: 0 0 0 10px;
+} 
+
+#main li {
+	margin: 10px 0 0 0; 
+}
