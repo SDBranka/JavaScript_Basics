@@ -15,7 +15,7 @@
 	border-radius: 10px;
 	background-color: #cf3036;
 	padding: 15px 10px;
-	margin-bottom: 10px;
+	margin-bottom: 15px;
 }
 
 #nav {
@@ -44,18 +44,18 @@
 }
 
 #foot {
-	display: flex;
 	background-color: #5d6673;
 	border-radius: 15px;
 	margin-top: 10px;
-	height: 40px;
-	align-items: center;
-	padding: 10px, 10px, 10px, 30px;
-	font-size: 10px;
+	height: 30px;
+	/* padding: 10px, 10px, 10px, 30px; */
+	padding-top: 15px;
+	padding-left: 20px;
+	font-size: 12px;
 }
 
 a, li {
-	color: #5dd1ce;
+	color: #6adde6;
 	font-size: 12px;
 }
 
